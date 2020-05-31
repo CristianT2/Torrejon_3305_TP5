@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Portal Deportivo</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+  <div id="contenedor">
+     <header >
+        <h1>Liga de Fútbol Profesional</h1>
+     </header>
+   
+   	 <nav >
+  	    <ul id="menu">
+  	       <li><a href="Index.html">Home</a></li>
+  	       <li><a href="fixture.html">Fixture y Partidos</a></li>
+  	       <li><a href="equipos.html">Equipos</a></li>
+  	    </ul>
+  	    <div id="welcome">
+  	    	<h4 th:text="'Bienvenido! '+ ${usuario}"></h4>
+  	    </div>			  
+     </nav>
+     <br>
+     <section id="contenido">
+        
+        <h1>Noticias</h1>
+        <br>
+        <div id="contenedorColumnas">
+        	<div id="columnas">
+        		<img src="img/img1.jpg">
+        		<h4>7/05/2020</h4>
+        		<p>Se confirmó la fecha de reanudación de la Bundesliga</p>
+        	</div>
+        	
+        	<div id="columnas">
+        		<img alt="" src="img/img2.jpg">
+        		<h4>07/05/2020</h4>
+        		<p>Vuelve el fútbol en Alemania, Turquía, Serbia y Montenegro</p>
+        	</div>
+        	<div id="columnas">
+        		<img alt="" src="img/img3.jpg">
+        		<h4>07/05/2020</h4>
+        		<p>B. Dortmund - Schalke 04, en la jornada de la vuelta de la Bundesliga</p>
+        	</div>      
+        	
+       	</div>
+       	<div id="contenedorColumnas">
+       		<div id="columnas">
+        		<img alt="" src="img/img4.jpg">
+        		<h4>07/05/2020</h4>
+        		<p> Hinchas de cartón y en tamaño real para "alentar" a los clubes en la Bundesliga</p>
+        	</div>
+        	<div id="columnas">
+        		<img alt="" src="img/img5.jpg">
+        		<h4>06/05/2020</h4>
+        		<p>Claudio Tapia: el reclamo de los futbolistas, la economía de los clubes y de Escaloni</p>
+        	</div>
+        	<div id="columnas">
+        		<img alt="" src="img/img6.jpg">
+        		<h4>06/05/2020</h4>
+        		<p>"Es muy importante para River": Enzo Francescoli elogió a Lucas Pratto</p>
+        	</div>
+       	</div>
+     </section>
+     
+     <aside id="aside">
+     	  <h4>Auspiciantes</h4>
+     	  <br>
+     	  <img alt="" src="img/adidas.jpg">
+     	  <img alt="" src="img/coca-cola.png">
+     	  <img alt="" src="img/powerade.jpg">
+     	  
+     </aside>
+     
+   
+     <footer >
+     	  <p>Avda. Gral. San Martín N°780 San Salvador de Jujuy - Tel.:3884149181</p>
+     	  		
+     	  <img id="imgFooter" alt="" src="img/facebook.png">
+     	  <img id="imgFooter" alt="" src="img/instagram.png">
+     	  <img id="imgFooter" alt="" src="img/whatsapp.png">	
+     </footer>
+   
+    
+     
+  </div>
+</body>
+</html>

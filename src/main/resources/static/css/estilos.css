@@ -1,0 +1,164 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	margin: 5px;
+	padding: 10px;
+	background:black;
+}
+
+header{
+	background-color: #191970;
+	text-align: center;
+	font-size: 35px;
+	color:white;
+	padding: 35px;
+}
+
+nav{
+	background: #FF8C00
+}
+
+#menu{
+	padding:10px;
+	margin: auto;
+}
+
+#menu ul{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	display: block;	
+}
+#menu li {
+	display: inline-block;
+}
+#menu  a{
+	color:white;
+	display: block;
+	text-decoration: none;
+	padding: 5px;
+}
+
+#menu a:hover{
+	background-color: #FFA500;
+}
+
+#contenido{
+	width:78%;
+	height:550px;
+	padding:10px;
+	background: #B0E0E6;
+	float: left;
+	margin: auto;
+	overflow: scroll;
+	margin-bottom: 20px;
+}
+section h1{
+	display:block;
+	background: black;
+	color:white;
+	font-size:30px;
+	padding: 3px;
+}
+
+#contenedorColumnas{
+	width: 100%;
+	margin: auto;
+}
+
+#columnas{
+	background-color:white;
+	width: 33.333%;
+	float:left;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	border: solid;
+	border-color:silver;
+}
+
+#columnas img{
+	width: 100%;
+}
+
+#columnas h4{
+	padding:15px;
+	
+}
+
+#columnas p{
+	padding-bottom: 30px;
+}
+
+aside{
+	float:right;
+	width:17%;
+	height:550px;
+	background-color: #87CEEB;
+	margin: auto;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+aside h4{
+	display:block;
+	text-align: center;
+	font-size:18px;
+	color:white;
+	background:black; 
+	padding: 3px;
+}
+
+aside img{	
+	padding-bottom:10px;
+	width: 100%;
+}
+
+footer{
+	margin-top: 20px;
+	background-color:#191970;
+	clear: both;
+	text-align:center; 
+}
+footer p{
+	display:inline-block;
+	text-align: center;
+	color:white;
+	font-family: cursive;
+}
+#imgFooter{
+	display: inline-block;
+	text-align: center;
+}
+
+#tituloFixture{
+	text-align: center;
+}
+
+#articulo{
+	width: 100%;
+	margin: auto;
+	margin-top: 25px;	
+	margin-bottom: 10px;
+}
+
+#articulo img{
+	display: block;
+	float: left;
+	width: 20%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#articulo p{
+	 display: block;
+	 float: right;
+	 width: 70%;
+	 margin: auto;
+	 padding-right: 20px;
+	 text-align: justify;
+	 background: #3FE891;
+	 margin-bottom: 20px;
+}
